@@ -1,0 +1,9 @@
+[package]
+name = "b"
+version = "0.2.0+sdk-1.3.268.0"
+authors = ["msiglreith <m.siglreith@gmail.com"]
+edition = "2018"
+
+[lib]
+path = "lib.rs"
+a = { version = "0.1.0", path = "../a" }

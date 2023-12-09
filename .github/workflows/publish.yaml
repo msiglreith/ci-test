@@ -1,0 +1,17 @@
+name: Publish
+
+on:
+  push:
+    tags:
+    paths: "**/Cargo.toml"
+
+jobs:
+  Publish:
+    if: github.repository_owner == 'msiglreith'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish a
+        run: cargo publish --manifest-path a/Cargo.toml --dry-run
+      - name: Publish b
+        run: cargo publish --manifest-path b/Cargo.toml --dry-run
