@@ -3,6 +3,11 @@ name = "a"
 version = "0.1.0+sdk-1.3.268.0"
 authors = ["msiglreith <m.siglreith@gmail.com"]
 edition = "2018"
+license = ""
+license-file = ""
+documentation = ""
+homepage = ""
+repository = ""
 
 [lib]
 path = "lib.rs"
