@@ -12,4 +12,4 @@ description = "b"
 
 [lib]
 path = "lib.rs"
-a = { version = "0.1.0", path = "../a" }
+a = { path = "../a" }
