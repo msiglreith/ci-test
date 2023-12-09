@@ -6,8 +6,9 @@ edition = "2018"
 license = ""
 license-file = "../LICENSE.txt"
 documentation = ""
-homepage = ""
-repository = ""
+homepage = "github.com/msiglreith/ci-test"
+repository = "github.com/msiglreith/ci-test"
+description = "a"
 
 [lib]
 path = "lib.rs"
